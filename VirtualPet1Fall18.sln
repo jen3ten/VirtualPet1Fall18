@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPet1Fall18", "VirtualPet1Fall18\VirtualPet1Fall18.csproj", "{69146709-9D9E-4695-846B-C1F466CF634A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPet1Fall18.Tests", "VirtualPet1Fall18.Tests\VirtualPet1Fall18.Tests.csproj", "{0F7E34B4-B3F5-4D02-8AF1-E51EF296495B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69146709-9D9E-4695-846B-C1F466CF634A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69146709-9D9E-4695-846B-C1F466CF634A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69146709-9D9E-4695-846B-C1F466CF634A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69146709-9D9E-4695-846B-C1F466CF634A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7E34B4-B3F5-4D02-8AF1-E51EF296495B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7E34B4-B3F5-4D02-8AF1-E51EF296495B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7E34B4-B3F5-4D02-8AF1-E51EF296495B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7E34B4-B3F5-4D02-8AF1-E51EF296495B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22FFCCED-4AA7-4FD1-8247-1C7EB05F86C2}
+	EndGlobalSection
+EndGlobal
