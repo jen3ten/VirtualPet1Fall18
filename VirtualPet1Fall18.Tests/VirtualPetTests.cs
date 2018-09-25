@@ -63,5 +63,49 @@ namespace VirtualPet1Fall18.Tests
             Assert.That(sut.Fatigue, Is.GreaterThan(20));
         }
 
+        [Test]
+        public void Should_Call_ExerciseMe_And_Increase_Hunger()
+        {
+            sut.Hunger = 20;
+            sut.ExerciseMe();
+
+            Assert.That(sut.Hunger, Is.GreaterThan(20));
+        }
+
+        [Test]
+        public void Should_Call_ExerciseMe_And_Increase_Health()
+        {
+            sut.Health = 20;
+            sut.ExerciseMe();
+
+            Assert.That(sut.Health, Is.GreaterThan(20));
+        }
+
+        [Test]
+        public void Should_Call_RestMe_And_Decrease_Fatigue()
+        {
+            sut.Fatigue = 20;
+            sut.RestMe();
+
+            Assert.That(sut.Fatigue, Is.LessThan(20));
+        }
+
+        [Test]
+        public void Should_Call_RestMe_And_Increase_Health()
+        {
+            sut.Health = 20;
+            sut.RestMe();
+
+            Assert.That(sut.Health, Is.GreaterThan(20));
+        }
+
+        [Test]
+        public void Should_Set_Default_Property_Values()
+        {
+            Assert.That(sut.Health, Is.EqualTo(100));
+            Assert.That(sut.Hunger, Is.EqualTo(100));
+            Assert.That(sut.Fatigue, Is.EqualTo(100));
+        }
+
     }
 }
